@@ -1,0 +1,32 @@
+{
+  "name": "flutter-bloc-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This is a commandline tool for quickly generating bloc code for flutter applications",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliwhosane/flutter-bloc-cli.git"
+  },
+  "keywords": [
+    "flutter",
+    "cli",
+    "bloc"
+  ],
+  "author": "ali.whosane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliwhosane/flutter-bloc-cli/issues"
+  },
+  "bin": {
+    "fbc": "./bin/index.js"
+  },
+  "homepage": "https://github.com/aliwhosane/flutter-bloc-cli#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "yargs": "^17.6.2"
+  }
+}
